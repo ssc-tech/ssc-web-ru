@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-header {
+    font-family: 'Jura', sans-serif;
+    width: 100%;
+    background-color: #FC7C04;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-header a {
+    color: #fff;
+}
+
+.header-logo {
+    font-weight: 600;
+    width: 80%;
+    padding-left: 4%;
+}
+
+.main-footer {
+    font-family: 'Jura', sans-serif;
+    width: 100%;
+    background-color: #FC7C04;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-footer a {
+    color: #fff;
+}
+
+.footer-logo {
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    width: 80%;
+}
+
+.footer-menu-block {
+    display: none;
+}
+
+.copyright {
+    font-size: .7rem;
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+}
+
+#follow-us {
+    display: none;
+}
+
+#footer-social-icons {
+    width: 60%;
+    margin: 5% auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-icons {
+    width: 16px;
+    height: 16px;
+    margin: 0 4%;
+}
+
+/* Hamburger menu, icon and animation */
+
+.menu-btn {
+    display: block;
+    float: right;
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+}
+
+.menu-btn span,
+.menu-btn span::before,
+.menu-btn span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -1px;
+    margin-left: -10px;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.menu-btn span::before,
+.menu-btn span::after {
+    content: '';
+    display: block;
+    transition: .2s;
+}
+
+.menu-btn span::before {
+    transform: translateY(-5px);
+}
+
+.menu-btn span::after {
+    transform: translateY(5px);
+}
+
+.menu-btn-open span {
+    height: 0;
+}
+
+.menu-btn-open span:before {
+    transform: rotate(225deg);
+}
+
+.menu-btn-open span:after {
+    transform: rotate(-225deg);
+}
+
+.menu-block {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    display: none;
+}
+
+.menu-links {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.menu-block-open {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}

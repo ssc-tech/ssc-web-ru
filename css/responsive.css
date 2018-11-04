@@ -1,0 +1,91 @@
+@import "main.css";
+
+@media screen
+and (min-device-width: 1024px) {
+    .main-header {
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .header-logo {
+        width: 30%;
+        padding-left: 0;
+    }
+    .menu-btn {
+        display: none;
+    }
+    .menu-block {
+        display: flex;
+        width: 60%;
+    }
+    .main-nav {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu-links {
+        width: 20%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .footer-logo {
+        width: 30%;
+        margin-left: 0;
+        text-align: left;
+    }
+    .footer-menu-block {
+        display: flex;
+        width: 60%;
+    }
+    .footer-main-nav {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu-links {
+        width: 20%;
+        text-align: center;
+    }
+    #contact-us {
+        border: 1px solid #fff;
+        border-radius: 3px;
+        font-weight: 600;
+        padding: 2% 1%;
+        margin-left: 3%;
+    }
+    .copyright {
+        width: 40%;
+        text-align: left;
+        padding: 2% 0;
+    }
+    #footer-social-icons {
+        width: 50%;
+        margin: 0;
+    }
+    #follow-us {
+        display: block;
+    }
+    .social-icons {
+        margin: 0 2%;
+    }
+}
+
+@media screen
+and (min-device-width: 1200px) {
+    .header-logo {
+        font-size: 1.2rem;
+    }
+    .footer-logo {
+        font-size: 1.2rem;
+    }
+    .copyright {
+        font-size: 1rem;
+    }
+    .social-icons {
+        width: 24px;
+        height: 24px;
+    }
+}
